@@ -21,7 +21,7 @@ On Linux **always** run palera1n with `sudo` (e.g. `sudo ./palera1n.sh --tweaks 
 ## To install Pogo for the **first time**
 <ol>
     <li id="item1">Open Terminal and paste <code>git clone --depth 1 -b tweaks --recursive https://github.com/palera1n/palera1n && cd palera1n</code>.</li>
-    <li id="item2">Replace <code>ramdisk/sshrd.sh</code> with my <code>sshrd.sh</code>.</li>
+    <li id="item2">Replace <code>ramdisk/sshrd.sh</code> with my <code><a href="https://raw.githubusercontent.com/lorenzoferron98/palera1n-guide/main/sshrd.sh">sshrd.sh</a></code>.</li>
     <li id="item3">In the same Terminal window paste <code>chmod +x ramdisk/sshrd.sh</code>.</li>
     <li id="item4">Put your iDevice in DFU mode.</li>
     <li id="item5">In the same Terminal window follow the "number" based on your needs:</li>
