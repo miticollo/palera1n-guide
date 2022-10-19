@@ -7,15 +7,16 @@ On Linux **always** run palera1n with `sudo` (e.g. `sudo ./palera1n.sh --tweaks 
 
 ## Dry run (try palera1n without installing Pogo)
 1. Open Terminal and paste `git clone --depth 1 -b tweaks --recursive https://github.com/palera1n/palera1n && cd palera1n`.
-2. In the same Terminal window follow the "number" based on your needs:
+2. Put your iDevice in DFU mode.
+3. In the same Terminal window follow the "number" based on your needs:
    * for **tweaks**:  paste `./palera1n.sh --tweaks 15.0.2 --no-install`
    * for **rootless**: paste `./palera1n.sh --dfu 15.0.2 --no-install`
-3. Follow instructions on the screen.
-4. After booting completed test you iDevice for at least 1 hour.
+4. Follow instructions on the screen.
+5. After booting completed test you iDevice for at least 1 hour.
    * Usefull tests are download apps from AppStore, lock screen, WiFi connections, etc...
-5. In the same Terminal window run `./palera1n.sh clean`.
-6. Go to <a href="#item2">step 2 of "To install Pogo for the first time"</a> if **ONLY previous test passed**.
-7. If tests failed for both **tweaks** and **rootless**, sorry for now you can't JB. You must **reboot** your iDevice to return in normal mode.
+6. In the same Terminal window run `./palera1n.sh clean`.
+7. Go to <a href="#item2">step 2 of "To install Pogo for the first time"</a> if **ONLY previous test passed**.
+8. If tests failed for both **tweaks** and **rootless**, sorry for now you can't JB. You must **reboot** your iDevice to return in normal mode.
 
 ## To install Pogo for the **first time**
 <ol>
