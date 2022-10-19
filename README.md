@@ -13,7 +13,7 @@ On Linux **always** run palera1n with `sudo` (e.g. `sudo ./palera1n.sh --tweaks 
    * for **rootless**: paste `./palera1n.sh --dfu 15.0.2 --no-install`
 4. Follow instructions on the screen.
 5. After booting completed unplug iDevice from PC.
-6. Test you iDevice for at least 1 hour.
+6. Test your iDevice for at least 1 hour.
    * Usefull tests are download apps from AppStore, lock screen (for deepsleep bug), WiFi connections, etc...
 7. In the same Terminal window run `./palera1n.sh clean && rm -rfv blobs`.
 8. Go to <a href="#item2">step 2 of "To install Pogo for the first time"</a> if **ONLY previous test passed**.
