@@ -32,13 +32,11 @@
 2. Run `git pull`. You will understand if necessary to continue.
 3. Run `./palera1n.sh clean`
 4. Go to <a href="#item4">step 4 of "To install Pogo for the first time"</a>.
-6. Enjoy!
 
 ## To only power on your iDevice in jailbroken state
 1. Open Terminal inside palera1n
 2. Put iDevice in DFU mode.
 3. Run `./palera1n.sh --dfu 15.0.2 --no-install` to only boot your iDevice. Remember Pogo and Sileo are already installed.
-4. Enjoy!
 
 ## To restore RootFS and so to **remove palera1n** and **ALL YOUR DATA**
 1. On your iDevice open Settings.
