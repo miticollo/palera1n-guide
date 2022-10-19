@@ -5,7 +5,7 @@
    * for **tweaks**:  paste `./palera1n.sh --tweaks 15.0.2 --no-install`
    * for **rootless**: paste `./palera1n.sh --dfu 15.0.2 --no-install`
 3. Follow instructions on the screen.
-4. After booting completed test you iDevice for atleast 1 hour.
+4. After booting completed test you iDevice for at least 1 hour.
 5. A successfully tests are doenload apps from AppStore, lock screen, WiFi connections, etc...
 6. Go to <a href="#item2">step 2 of "To install Pogo for the first time"</a>.
 
