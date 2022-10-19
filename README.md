@@ -12,17 +12,19 @@ On Linux **always** run palera1n with `sudo` (e.g. `sudo ./palera1n.sh --tweaks 
    * for **tweaks**:  paste `./palera1n.sh --tweaks 15.0.2 --no-install`
    * for **rootless**: paste `./palera1n.sh --dfu 15.0.2 --no-install`
 4. Follow instructions on the screen.
-5. After booting completed test you iDevice for at least 1 hour.
+5. After booting completed unplug iDevice from PC.
+6. Test you iDevice for at least 1 hour.
    * Usefull tests are download apps from AppStore, lock screen (for deepsleep bug), WiFi connections, etc...
-6. In the same Terminal window run `./palera1n.sh clean && rm -rfv blobs`.
-7. Go to <a href="#item2">step 2 of "To install Pogo for the first time"</a> if **ONLY previous test passed**.
-8. If tests failed for both **tweaks** and **rootless**, sorry for now you can't JB. You must **reboot** your iDevice to return in normal mode.
+7. In the same Terminal window run `./palera1n.sh clean && rm -rfv blobs`.
+8. Go to <a href="#item2">step 2 of "To install Pogo for the first time"</a> if **ONLY previous test passed**.
+9. If tests failed for both **tweaks** and **rootless**, sorry for now you can't JB. You must **reboot** your iDevice to return in normal mode.
 
 ## To install Pogo for the **first time**
 <ol>
     <li id="item1">Open Terminal and paste <code>git clone --depth 1 -b tweaks --recursive https://github.com/palera1n/palera1n && cd palera1n</code>.</li>
     <li id="item2">Replace <code>ramdisk/sshrd.sh</code> with my <code><a href="https://raw.githubusercontent.com/lorenzoferron98/palera1n-guide/main/sshrd.sh">sshrd.sh</a></code>.</li>
     <li id="item3">In the same Terminal window paste <code>chmod +x ramdisk/sshrd.sh</code>.</li>
+    <li id="item11">Plug iDevice to your PC.</li>
     <li id="item4">Put your iDevice in DFU mode.</li>
     <li id="item5">In the same Terminal window follow the "number" based on your needs:</li>
       <ul>
