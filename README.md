@@ -1,4 +1,10 @@
 # palera1n-guide
+
+**ALERT!** This guide **may be invalid** if palera1n changes.
+
+### Linux
+On Linux **always** run palera1n with `sudo` (e.g. `sudo ./palera1n.sh --tweaks 15.0.2`).
+
 ## Dry run (try palera1n without installing Pogo)
 1. Open Terminal and paste `git clone --depth 1 -b tweaks --recursive https://github.com/palera1n/palera1n && cd palera1n`.
 2. In the same Terminal window follow the "number" based on your needs:
@@ -43,9 +49,3 @@
 2. Go to General > Transfer or Reset iPhone > Erase All Content and Settings > Continue
 3. Wait iDevice reboots in Setup.app.
 4. After completing setup. Go to <a href="#item4">step 4 of "To install Pogo for the first time"</a>.
-
-## Linux
-On Linux **always** run palera1n with `sudo` (e.g. `sudo ./palera1n.sh --tweaks 15.0.2`).
-
-## Future palera1n update
-These instrunctions **may be invalid** if palera1n changes.
