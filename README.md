@@ -13,7 +13,7 @@ On Linux **always** run palera1n with `sudo` (e.g. `sudo ./palera1n.sh --tweaks 
 3. Follow instructions on the screen.
 4. After booting completed test you iDevice for at least 1 hour.
 5. Usefull tests are download apps from AppStore, lock screen, WiFi connections, etc...
-6. Go to <a href="#item2">step 2 of "To install Pogo for the first time"</a>.
+6. Go to <a href="#item2">step 2 of "To install Pogo for the first time"</a> if **ONLY previous test passed**.
 
 ## To install Pogo for the **first time**
 <ol>
