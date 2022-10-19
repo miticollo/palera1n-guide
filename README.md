@@ -14,7 +14,7 @@ On Linux **always** run palera1n with `sudo` (e.g. `sudo ./palera1n.sh --tweaks 
 4. Follow instructions on the screen.
 5. After booting completed test you iDevice for at least 1 hour.
    * Usefull tests are download apps from AppStore, lock screen, WiFi connections, etc...
-6. In the same Terminal window run `./palera1n.sh clean`.
+6. In the same Terminal window run `./palera1n.sh clean && rm -rf boot-*`.
 7. Go to <a href="#item2">step 2 of "To install Pogo for the first time"</a> if **ONLY previous test passed**.
 8. If tests failed for both **tweaks** and **rootless**, sorry for now you can't JB. You must **reboot** your iDevice to return in normal mode.
 
