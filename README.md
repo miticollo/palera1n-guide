@@ -8,7 +8,7 @@ On Linux **always** run palera1n with `sudo` (e.g. `sudo ./palera1n.sh --tweaks 
 ## Dry run (try palera1n without installing Pogo)
 1. Open Terminal and paste `git clone --depth 1 -b tweaks --recursive https://github.com/palera1n/palera1n && cd palera1n`.
 2. Put your iDevice in DFU mode.
-3. In the same Terminal window follow the "number" based on your needs:
+3. In the same Terminal window choose based on your needs:
    * for **tweaks**:  paste `./palera1n.sh --tweaks 15.0.2 --no-install`
    * for **rootless**: paste `./palera1n.sh --dfu 15.0.2 --no-install`
 4. Follow instructions on the screen.
