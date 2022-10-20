@@ -39,9 +39,9 @@ On Linux **always** run palera1n with `sudo` (e.g. `sudo ./palera1n.sh --tweaks 
 </ol>
 
 ## To update folder `palera1n`
-1. Open Terminal inside `palera1n`
+1. Open Terminal inside `palera1n`.
 2. Run `git reset --hard && git pull`.
-3. Run `./palera1n.sh clean`
+3. Run `./palera1n.sh clean`.
 4. Go to <a href="#item2">step 2 of "To install Pogo for the first time"</a>.
 
 ## To only power on your iDevice in jailbroken state
